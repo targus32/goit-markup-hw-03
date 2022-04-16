@@ -24,20 +24,44 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 /* Header */
+
+.page-nav,
+.page-header {
+  display: flex;
+  align-items: center;
+}
+
 .header-list,
 .header-contact {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: flex;
 }
+.header-list li:not(:last-child),
+.header-contact li:not(:last-child) {
+  margin-right: 50px;
+}
+
 .logo {
   color: #000000;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  margin-right: 93px;
 }
 .accent {
   color: var(--accent-color);
@@ -64,6 +88,7 @@ ul {
 .hero {
   background-color: var(--background-hero-footer);
   color: var(--primary-white-color);
+  margin-bottom: 94px;
 }
 .hero h1 {
   font-weight: 900;
@@ -73,7 +98,6 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
-  min-width: none;
   width: 696px;
 }
 .button {
@@ -97,9 +121,11 @@ ul {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--secondary-text-color);
+  margin-bottom: 10px;
 }
 .benefits p {
   line-height: 1.71;
+  margin-bottom: 94px;
 }
 .section-title {
   font-weight: 700;
@@ -107,6 +133,10 @@ ul {
   line-height: 1.17;
   text-align: center;
   color: var(--secondary-text-color);
+  margin-bottom: 50px;
+}
+.about img {
+  margin-bottom: 94px;
 }
 .team {
   background-color: #f5f4fa;
@@ -117,11 +147,19 @@ ul {
   line-height: 1.19;
   text-align: center;
   color: var(--secondary-text-color);
+  margin-bottom: 10px;
 }
 .team p {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 30px;
+}
+team img {
+  margin-bottom: 30px;
+}
+.team-card {
+  margin-bottom: 94px;
 }
 /* Footer */
 .footer {
@@ -135,9 +173,11 @@ ul {
   line-height: 1.71;
   font-style: normal;
   color: var(--primary-white-color);
+  margin-top: 20px;
 }
 .footer-contacts a {
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
 }
 .footer-contacts a:hover,
 .footer-contacts a:focus {
