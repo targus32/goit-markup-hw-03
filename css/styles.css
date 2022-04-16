@@ -63,6 +63,9 @@ ul {
   line-height: 1.19;
   margin-right: 93px;
 }
+.header-contact {
+  margin-left: auto;
+}
 .accent {
   color: var(--accent-color);
 }
@@ -89,16 +92,15 @@ ul {
   background-color: var(--background-hero-footer);
   color: var(--primary-white-color);
   margin-bottom: 94px;
+  text-align: center;
 }
 .hero h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
-  width: 696px;
 }
 .button {
   color: var(--primary-white-color);
@@ -186,6 +188,8 @@ team img {
 /* PORTFOLIO */
 
 .btn-portfolio {
+  border-radius: 4px;
+  padding: 6px 22px;
   color: var(--secondary-text-color);
   background-color: #f5f4fa;
   cursor: pointer;
@@ -201,7 +205,18 @@ team img {
   background-color: var(--accent-color);
   cursor: pointer;
 }
+.section-filter {
+  margin-bottom: 50px;
+}
+.cards-list a {
+  display: inline;
+  margin: 30px;
+}
+.cards-list img {
+  margin-bottom: 20px;
+}
 .cards-list h2 {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -209,6 +224,7 @@ team img {
   color: var(--secondary-text-color);
 }
 .cards-list p {
+  margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);
