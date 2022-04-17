@@ -17,8 +17,11 @@ body {
 ul {
   list-style: none;
 }
+img {
+  display: block;
+}
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -91,7 +94,7 @@ ul {
 .hero {
   background-color: var(--background-hero-footer);
   color: var(--primary-white-color);
-  margin-bottom: 94px;
+
   text-align: center;
 }
 .hero h1 {
@@ -117,6 +120,13 @@ ul {
   min-width: 200px;
   text-align: center;
 }
+.benefits-content {
+  display: flex;
+  padding-left: 0px;
+}
+.benefits-content li + li {
+  margin-left: 30px;
+}
 .benefits h3 {
   font-weight: 700;
   font-size: 14px;
@@ -127,14 +137,8 @@ ul {
 }
 .benefits p {
   line-height: 1.71;
-  margin-bottom: 94px;
 }
-.benefits-content {
-  display: flex;
-}
-.benefits-content li + li {
-  margin-left: 30px;
-}
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -145,16 +149,21 @@ ul {
 }
 .about-content {
   display: flex;
+  padding-left: 0px;
 }
 
-.about img {
-  margin-bottom: 94px;
-}
 .about-content li + li {
   margin-left: 30px;
 }
 .team {
   background-color: #f5f4fa;
+}
+.team-card {
+  display: flex;
+  padding-left: 0px;
+}
+.team-card li + li {
+  margin-left: 30px;
 }
 .team img {
   margin-bottom: 30px;
@@ -174,13 +183,6 @@ ul {
   margin-bottom: 30px;
 }
 
-.team-card {
-  display: flex;
-  margin-bottom: 94px;
-}
-.team-card li + li {
-  margin-left: 30px;
-}
 /* Footer */
 .footer {
   background-color: var(--background-hero-footer);
@@ -224,15 +226,29 @@ ul {
   cursor: pointer;
 }
 .section-filter {
+  display: flex;
+  justify-content: center;
   margin-bottom: 50px;
 }
-.cards-list a {
-  display: inline;
-  margin: 30px;
+.section-filter li + li {
+  margin-left: 8px;
 }
-.cards-list img {
-  margin-bottom: 20px;
+.cards-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-top: -15px;
 }
+.item {
+  margin-left: 15px;
+  margin-top: 15px;
+  flex-basis: calc((100% - 45px) / 3);
+}
+/* .cards-list li + li {
+  margin-left: 30px;
+} */
+
 .cards-list h2 {
   margin-bottom: 4px;
   font-weight: 700;
