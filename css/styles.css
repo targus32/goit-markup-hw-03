@@ -129,6 +129,12 @@ ul {
   line-height: 1.71;
   margin-bottom: 94px;
 }
+.benefits-content {
+  display: flex;
+}
+.benefits-content li + li {
+  margin-left: 30px;
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -137,11 +143,21 @@ ul {
   color: var(--secondary-text-color);
   margin-bottom: 50px;
 }
+.about-content {
+  display: flex;
+}
+
 .about img {
   margin-bottom: 94px;
 }
+.about-content li + li {
+  margin-left: 30px;
+}
 .team {
   background-color: #f5f4fa;
+}
+.team img {
+  margin-bottom: 30px;
 }
 .team h3 {
   font-weight: 500;
@@ -157,11 +173,13 @@ ul {
   text-align: center;
   margin-bottom: 30px;
 }
-team img {
-  margin-bottom: 30px;
-}
+
 .team-card {
+  display: flex;
   margin-bottom: 94px;
+}
+.team-card li + li {
+  margin-left: 30px;
 }
 /* Footer */
 .footer {
