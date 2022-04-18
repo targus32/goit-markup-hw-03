@@ -27,6 +27,10 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 h1,
 h2,
 h3,
@@ -39,15 +43,15 @@ ul {
 }
 
 /* Header */
-
-.page-nav,
-.page-header {
+.page-header,
+.page-nav {
   display: flex;
   align-items: center;
 }
 
 .header-list,
 .header-contact {
+  padding-left: 0px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -128,6 +132,8 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button {
   color: var(--primary-white-color);
@@ -144,11 +150,6 @@ ul {
   min-width: 200px;
   text-align: center;
 }
-.benefits {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .benefits-content {
   display: flex;
   padding-left: 0px;
@@ -189,8 +190,6 @@ ul {
 }
 .team {
   background-color: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .team-card {
   display: flex;
@@ -251,11 +250,10 @@ ul {
 }
 /* PORTFOLIO */
 /* header */
-.line {
+.page-header-line {
   border: 1px solid #ececec;
-  margin-bottom: 94px;
 }
-
+/* main */
 .btn-portfolio {
   border: 1px solid transparent;
   border-radius: 4px;
@@ -285,7 +283,6 @@ ul {
 }
 .cards-list {
   padding-left: 0px;
-  padding-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
