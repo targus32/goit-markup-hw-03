@@ -31,6 +31,9 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.link {
+  text-decoration: none;
+}
 h1,
 h2,
 h3,
