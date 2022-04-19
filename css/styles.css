@@ -152,6 +152,7 @@ ul {
   padding: 10px 32px;
   min-width: 200px;
   text-align: center;
+  border: none;
 }
 .benefits-content {
   display: flex;
@@ -227,10 +228,12 @@ ul {
 /* Footer */
 .footer {
   background-color: var(--background-hero-footer);
+  padding: 60px 0;
 }
 
 .footer .logo {
   color: var(--primary-white-color);
+  margin-right: 0px;
 }
 .footer-adress {
   line-height: 1.71;
@@ -249,7 +252,7 @@ ul {
   color: var(--accent-color);
 }
 .footer-contacts li {
-  padding-top: 9px;
+  margin-top: 9px;
 }
 /* PORTFOLIO */
 /* header */
@@ -302,24 +305,19 @@ ul {
 }
 .item-name {
   border: 1px solid #eeeeee;
+  padding: 20px 24px;
 }
 
 .cards-list h2 {
-  padding-top: 20px;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondary-text-color);
-  padding-left: 24px;
-  margin-bottom: 4px;
 }
 .cards-list p {
-  margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);
-  padding-left: 24px;
-  margin-bottom: 20px;
 }
